@@ -1,5 +1,17 @@
+@font-face {
+  /*フォントの名前*/
+  font-family: "customfont";
+  /*フォントファイルへのパス（複数指定の場合、上から順に読み込まれる）*/
+  src: url("/font/customfont.woff2") format("woff2"),
+       url("/font/customfont.woff") format("woff");
+}
+
+
+
+
+
 body {
-font-family: 'Kosugi Maru', sans-serif;
+font-family: 'customfont', sans-serif;
 }
 
 
