@@ -1,9 +1,7 @@
 @font-face {
-  /*フォントの名前*/
-  font-family: "customfont";
-  /*フォントファイルへのパス（複数指定の場合、上から順に読み込まれる）*/
-  src: url("/font/customfont.woff2") format("woff2"),
-       url("/font/customfont.woff") format("woff");
+    font-family: "customfont";
+    src: url("../font/customfont.woff2") format("woff2"),
+    url("../font/customfont.woff") format("woff");
 }
 
 
@@ -42,18 +40,18 @@ font-family: 'customfont', sans-serif;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: 'Hachi Maru Pop', cursive;
+  font-family: 'customfont', cursive;
 }
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
-  font-family: 'Hachi Maru Pop', cursive;
+  font-family: 'customfont', cursive;
 }
 
 #hero .btn-get-started {
-  font-family: "Jost", sans-serif;
+  font-family: "customfont", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
